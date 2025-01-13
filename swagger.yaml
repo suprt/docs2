@@ -74,8 +74,6 @@ paths:
           description: Internal Server Error
           schema:
             type: integer
-      security:
-      - ApiKeyAuth: []
       summary: Geocode search
       tags:
       - search
@@ -115,8 +113,6 @@ paths:
           description: Internal Server Error
           schema:
             type: integer
-      security:
-      - ApiKeyAuth: []
       summary: Address Search
       tags:
       - search

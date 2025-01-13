@@ -17,11 +17,6 @@ const docTemplate = `{
     "paths": {
         "/api/address/geocode": {
             "post": {
-                "security": [
-                    {
-                        "ApiKeyAuth": []
-                    }
-                ],
                 "description": "Search place address by geocode",
                 "consumes": [
                     "application/json"
@@ -81,11 +76,6 @@ const docTemplate = `{
         },
         "/api/address/search": {
             "post": {
-                "security": [
-                    {
-                        "ApiKeyAuth": []
-                    }
-                ],
                 "description": "Search place by address",
                 "consumes": [
                     "application/json"
